@@ -29,3 +29,4 @@ A playground website. I'm working on it as I learn.
 ### Current issues:
 
 - The Navbar toggler isn't working. I created it using Bootstrap but can't find out what's happening. I may just replace it with a custom one once I learn JavaScript.
+- divs #colorblock not showing on mobile view. Section buit with Bootstrap. Displaying correctly on -md, but disappear when content stacks on smaller screens.
