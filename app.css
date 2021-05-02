@@ -1,0 +1,295 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+/* -----header styling ------*/
+
+
+
+#header {
+    background-color: #758B8B;
+}
+
+
+#headerLeaves {
+    background-image: url(imgs/bananaleaves.jpg);
+    min-width: 50vw;
+    min-height: 100%;
+    display: flex;
+}
+
+#headerText blockquote{
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+#headerText p{
+font-family: Montserrat, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 1rem;
+display: flex;
+align-items: center;
+text-align: justify;
+padding-top: 1rem;
+}
+
+#logoBox {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 5rem;
+    width: 100%;
+    
+}
+
+#mainNavbar {
+    background-color: #D4B6A9;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+#mainNavbar .navbar-brand {
+    color: #758B8B;
+    margin-left: 1rem;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+/* ------ retreat section styling ------*/
+
+#retreatbg {
+    background-image: url(imgs/background-imgyogadesktop.png);
+    background-size: cover;
+    color: white;
+    font-variant: small-caps;
+    min-height: 40vh;
+    margin: 1em;
+    position: relative;
+    
+}
+
+div #retreatTextbox {
+    background-color: rgba(212,182,169,0.5);
+    max-width: 30vw;
+    text-align: center;
+    margin: 2em;
+    position: absolute;
+    min-height: 80%;
+    padding: 2em;
+    
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.retreat {
+    margin-top: -.60em;
+}
+
+/* dark button */
+
+.darkbtn {
+    background-color: #946C82;
+    border: none;
+    color: #D4B6A9;
+    padding: .1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    font-variant: small-caps;
+    font-weight: bold;
+} 
+
+.darkbtn:hover {
+    background-color: #D4B6A9;
+    color: white;
+}
+
+
+/* ------ classes ------ */
+
+#classes {
+    background-color: #946C82;
+    color: #D4B6A9;
+    padding: 2em;
+}
+
+#classes p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-top: 1rem;
+    }
+
+    /* transparent button */
+
+.borderbtn {
+    background-color: #946C82;
+    border: 1.5px;
+    border-style: solid;
+    color: #D4B6A9;
+    padding: .1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 1em;
+} 
+
+.borderbtn:hover {
+    background-color: #D4B6A9;
+    color: #946C82
+}
+
+#colorblock {
+    background-color: #946C82;
+}
+
+/* ------ form ------ */
+
+#contact {
+    background-color: white;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    color: #946C82;
+    margin-top: 1em;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 90%;
+    padding: 10px auto;
+    margin: 10px 5%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #946C82;
+    outline: none;
+  }
+
+  input[type=text]:focus, input[type=email]:focus, textarea:focus{
+      border: 2px solid #D4B6A9;
+  }
+
+  label {
+      font-variant: small-caps;
+      color: #946C82;
+      margin: .5em 1em;
+  }
+
+input[type=submit] {
+    margin: 20%;
+    width: 60%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* ------ footer ------ */
+
+#footer {
+    background-image: url(imgs/bananaleaves.jpg);
+    max-height: 30vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#footerBox {
+    padding: 10px 20px;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 20px;
+    width: 100%;
+    
+}
+
+
+img #footerLogo{
+    height: 100px;
+   width: auto;
+
+}
+#address {
+    flex-grow: 3;
+    padding: 20px;
+}
+
+#address p{
+   
+    margin-bottom: 0;
+}
+
+#facebook {
+    padding: 20px;
+    
+}
+
+/* ------ media queries ------ */
+
+@media (max-width: 1200px) {
+
+    #headerText p{
+        font-size: .75rem;
+    }
+
+    #headerText blockquote{
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    #retreatbg {
+        margin: 0;
+        min-height: 100vh;
+        background-position: center;
+        background-image: url(imgs/YogaposeMobile.png);
+        display: flex;
+       justify-content: center;
+    }
+
+    div #retreatTextbox {
+        text-align: center;
+        max-height: 50vh;
+        min-height: 30vh;
+        bottom: 0;
+        max-width: 80%;
+
+
+    }
+
+    #classes {
+        text-align: center;
+    }
+
+}
+
