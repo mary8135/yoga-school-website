@@ -2,7 +2,7 @@
 
 A playground website. I'm working on it as I learn.
 
-![mockup](/mockups/mockup.png)
+![mockup](mockup.png)
 
 ### Skills used so far:
 
